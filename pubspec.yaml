@@ -1,0 +1,24 @@
+name: sassy_calculator
+description: A sensory-driven, liquid glass calculator with an attitude.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Used to safely calculate math strings like "5+5"
+  math_expressions: ^2.5.0
+  # Used to tap into the tablet's accelerometer and gyroscope
+  sensors_plus: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
